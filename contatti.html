@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BarberShop</title>
+        <link rel="stylesheet" href="style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mobile.css">
+    </head>
+    <body>
+        <img class="bg" src="back.jpg" width="1680" height="1050" />
+
+        <h1><div class="title">BARBER SHOP</div></h1>
+
+        <div class="menu">
+            <button class="openbar" onclick="openBar()">☰</button>
+        </div>
+
+        <div id="mySidebar" class="sidebar">
+            <button class="closebar" onclick="closeBar()">×</button>
+            <a href="index.html">Prenota</a>
+            <a href="orari.html">Orari</a>
+            <a href="collaborazione.html">Collaborazione</a>
+            <div class="subnav_prodotti">
+                <button class="subnavbtn_prodotti">Prodotti
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="subnav_prodotti-content">
+                    <a href="prodotti_capelli.html">Prodotti capelli</a>
+                    <a href="prodotti_barba.html">Prodotti barba</a>
+                </div>
+            </div>
+            <a href="#">Contatti</a>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="sub_title">
+            <b>Contatti</b>
+        </div>
+
+        <div class="box_table_contatti">
+            <div class="contatti" align="center">
+                <b><i>Per info:</i></b>
+                <a href="tel:3333333333">3333333333</a>
+                <br><br>
+                <form name="form_mail" enctype="text/plain" method="post" action="mailto:barbershop@gmail.com">
+                    <fieldset>
+                        <label for="nome"></label>
+                        <input name="nome" type="text" size="20" maxlength="30" placeholder="Inserisci Nome*"/>
+
+                        <label for="cogn"></label>
+                        <input name="cogn" type="text" size="20" maxlength="30" placeholder="Inserisci Cognome*"/>
+
+                        <label for="msg"></label>
+                        <textarea name="msg" type="text" placeholder="Inserisci Messaggio*"/></textarea>
+
+                        <input TYPE="button" VALUE="Contatta via mail" onclick="verificaForm2()"/>
+                    </fieldset>
+                </form>
+                <br><br>
+                <b><i>Siamo qui:</i></b>
+                <a>Centro Direzionale ISOLA C4, 80133 Napoli NA, Italia</a>
+                <br><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.683753925197!2d14.282150515409418!3d40.85686657931635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b081b0e8aa9b5%3A0x8903611ab0cc3fbc!2sUniversit%C3%A0%20Degli%20Studi%20Di%20Napoli%20%22Parthenope%22!5e0!3m2!1sit!2sit!4v1623951713193!5m2!1sit!2sit" width="600" height="350" style="border-radius:15px" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

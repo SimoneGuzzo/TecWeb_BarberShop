@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BarberShop</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mobile.css">
+    </head>
+
+    <body>
+        <img class="bg" src="back.jpg" width="1680" height="1050" />
+
+        <h1><div class="title">BARBER SHOP</div></h1>
+
+        <div class="menu">
+            <button class="openbar" onclick="openBar()">☰</button>
+        </div>
+
+        <div id="mySidebar" class="sidebar">
+            <button class="closebar" onclick="closeBar()">×</button>
+            <a href="index.html">Prenota</a>
+            <a href="orari.html">Orari</a>
+            <a href="collaborazione.html">Collaborazione</a>
+            <div class="subnav_prodotti">
+                <button class="subnavbtn_prodotti">Prodotti
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="subnav_prodotti-content">
+                    <a href="#">Prodotti capelli</a>
+                    <a href="prodotti_barba.html">Prodotti barba</a>
+                </div>
+            </div>
+            <a href="contatti.html">Contatti</a>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="sub_title">
+            <b>Prodotti per capelli</b>
+        </div>
+
+        <ul id="griglia">
+            <div class="container_01">
+                <img src="prodotti/capelli/cod01.jpg" style="width:150px;height:170px;">
+                <p>American Crew<br>Firm Hold Styling Gel 250 ml</p>
+                <a href="cod01.html" class="button_apri">Apri</a>
+            </div>
+
+            <div class="container_02">
+                <img src="prodotti/capelli/cod02.jpg" style="width:150px;height:170px;">
+                <p>American Crew<br>Precision Blend Shampoo 250 ml</p>
+                <a href="cod02.html" class="button_apri">Apri</a>
+            </div>
+
+            <div class="container_03">
+                <img src="prodotti/capelli/cod03.jpg" style="width:150px;height:170px;">
+                <p>Balsamo per capelli Reuzel<br>100 ml - Daily Conditioner</p>
+                <a href="cod03.html" class="button_apri">Apri</a>
+            </div>
+
+            <div class="container_04">
+                <img src="prodotti/capelli/cod04.jpg" style="width:150px;height:170px;">
+                <p>Byrd <br> Classic Pomade 73,9ml</p>
+                <a href="cod04.html" class="button_apri">Apri</a>
+            </div>
+        </ul>
+
+        <br><br><br><br><br><br>
+
+        <div class="text_info">
+            <b>PER INFO</b>
+        </div>
+
+        <div class="button_call_prod">
+            <i class="fa fa-phone" style="font-size:48px;color:GoldenRod;text-shadow:2px 2px 2px black;"></i>
+            &nbsp;&nbsp;&nbsp;
+            <a href="tel:3333333333">c</a>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

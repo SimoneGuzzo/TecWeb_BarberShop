@@ -1,0 +1,19 @@
+{
+  "name": "BarberShop",
+  "short_name": "BarberShop",
+  "start_url": "index.html",
+  "theme_color": "GoldenRod",
+  "background_color": "white",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "splash_pages": null
+}

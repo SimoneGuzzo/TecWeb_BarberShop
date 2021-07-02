@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BarberShop</title>
+        <link rel="stylesheet" href="style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mobile.css">
+    </head>
+
+    <body>
+        <img class="bg" src="back.jpg" width="1680" height="1050" />
+        <h1><div class="title">BARBER SHOP</div></h1>
+
+        <div class="menu">
+            <button class="openbar" onclick="openBar()">☰</button>
+        </div>
+
+        <div id="mySidebar" class="sidebar">
+            <button class="closebar" onclick="closeBar()">×</button>
+            <a href="index.html">Prenota</a>
+            <a href="orari.html">Orari</a>
+            <a href="collaborazione.html">Collaborazione</a>
+            <div class="subnav_prodotti">
+                <button class="subnavbtn_prodotti">Prodotti
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="subnav_prodotti-content">
+                    <a href="prodotti_capelli.html">Prodotti capelli</a>
+                    <a href="prodotti_barba.html">Prodotti barba</a>
+                </div>
+            </div>
+            <a href="contatti.html">Contatti</a>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="sub_title">
+            <b>Apothecary 87 - Firm Hold Moustache Wax</b>
+        </div>
+
+        <div class="box_table_prodotti">
+            <table class="text_table_prodotti">
+                <tr>
+                    <td>
+                        <div class="zoom_img">
+                            <img src="prodotti/barba/cod01.jpg" style="width:150px;height:170px;">
+                        </div>
+                    </td>
+                    <td align="left">
+                        <br>Cera per baffi che garantisce una forte tenuta: profumazione gradevole e virile, viene contenuta in un piccolo barattolino di vetro.
+                        <br><br>Prezzo: 11,90 €
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+            <div class="botton_back">
+                <a href="prodotti_barba.html" class="back">&laquo; Torna indietro</a>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
