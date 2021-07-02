@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BarberShop</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- iOS meta tags & icons -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="barbershop">
+		<link rel="apple-touch-icon" href="icon/icon.png">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="mobile.css">
+
+		<link rel="manifest" href="manifest.json">
+		<meta name="theme-color" content="GoldenRod"/>
+	</head>
+	<body>
+
+		<img class="bg" src="back.jpg" width="1680" height="1050" />
+
+		<h1><div class="title">BARBER SHOP</div></h1>
+	
+		<div class="menu">
+		  <button class="openbar" onclick="openBar()">☰</button>  
+		</div>
+		
+		<div id="mySidebar" class="sidebar">
+			<button class="closebar" onclick="closeBar()">×</button>
+			<a href="#">Prenota</a>
+			<a href="orari.html">Orari</a>
+			<a href="collaborazione.html">Collaborazione</a>
+			<div class="subnav_prodotti">
+				<button class="subnavbtn_prodotti">Prodotti
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="subnav_prodotti-content">
+					<a href="prodotti_capelli.html">Prodotti capelli</a>
+					<a href="prodotti_barba.html">Prodotti barba</a>
+				</div>
+			</div>
+			<a href="contatti.html">Contatti</a>
+		</div>
+
+		<br><br><br><br><br>
+
+		<div class="sub_title">
+			<b>Servizi e listino prezzi</b>
+		</div>
+		
+		<table class="box_table_index" align="left">
+			<tr>
+				<th class= "text_time"><i>40 Min</i></th>
+				<th class= "text_service"><b>Taglio</b></th>
+				<th class= "text_price">12 €</th>
+			</tr>
+			<tr>
+				<th class= "text_time"><i>40 Min</i></th>
+				<th class= "text_service"><b>Taglio + Shampoo</b></th>
+				<th class= "text_price">15 €</th>
+			</tr>
+			<tr>
+				<th class= "text_time"><i>40 Min</i></th>
+				<th class= "text_service"><b>Taglio + Shampoo</b></th>
+				<th class= "text_price">15 €</th>
+			</tr>
+			<tr>
+				<th class= "text_time"><i>20 Min</i></th>
+				<th class= "text_service"><b>Taglio + Piega</b></th>
+				<th class= "text_price">8 €</th>
+			</tr>
+			<tr>
+				<th class= "text_time"><i>40 Min</i></th>
+				<th class= "text_service"><b>Taglio + Shampoo + Barba</b></th>
+				<th class= "text_price">21 €</th>
+			</tr>
+			<tr>
+				<th class= "text_time"><i>20 Min</i></th>
+				<th class= "text_service"><b>Barba</b></th>
+				<th class= "text_price">8 €</th>
+			</tr>
+			<tr>
+				<th class= "text_time"><i>20 Min</i></th>
+				<th class= "text_service"><b>Regolazione Barba</b></th>
+				<th class= "text_price">8 €</th>
+			<tr>
+				<th class= "text_time"><i>40 Min</i></th>
+				<th class= "text_service"><b>Tinta</b></th>
+				<th class= "text_price">20 €</th>
+			</tr>
+		</table>
+
+		<div class="text_chiama">
+			<b>CHIAMA PER PRENOTARE</b>
+		</div>
+
+		<div class="button_call">
+			<i class="fa fa-phone" style="font-size:48px;color:GoldenRod;text-shadow:2px 2px 2px black;"></i>
+			&nbsp;&nbsp;&nbsp;
+			<a href="tel:3333333333">c</a>
+		</div>
+
+		<script async>
+			window.onload = () => {
+				'use strict';
+				if ('serviceWorker' in navigator) {
+					navigator.serviceWorker
+							.register('./service-worker.js');
+				}
+			}
+		</script>
+
+		<script src="js/main.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
