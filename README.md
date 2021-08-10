@@ -9,5 +9,5 @@ Web app built using HTML, CSS and JavaScript.
 3. To open the local file URL hold Alt+F2 
 
 # Developed by:
-- @martinabuffolino / 0124001850 
-- @SimoneGuzzo / 0124001903
+- <a href="https://github.com/martinabuffolino">@martinabuffolino</a> / 0124001850 
+- <a href="https://github.com/SimoneGuzzo">@SimoneGuzzo</a> / 0124001903
